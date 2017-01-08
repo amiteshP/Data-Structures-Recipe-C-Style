@@ -1,4 +1,4 @@
-//minimum and maximum value in an array
+//Program discusses how to find the minimum and maximum value in an array.
 
 #include<stdio.h>
 
@@ -12,9 +12,9 @@ int main(){
     for(i=1; i<6; i++){
         scanf("%d", &arr[i]);           //We loop through the array and as we loop,
         if(arr[i]<min)min = arr[i];     //we check each element for min and max by
-        if(arr[i]>max)max = arr[i];     //comparing it with the previous min/max(initially the 0th element)
+        if(arr[i]>max)max = arr[i];     //comparing it with the previous min/max(initially the 0th element).
     }
-    printf("%d %d", min, max);
+    printf("%d %d", min, max);          //Finally, we print the minimum and the maximum value.
     return 0;
 
 }
