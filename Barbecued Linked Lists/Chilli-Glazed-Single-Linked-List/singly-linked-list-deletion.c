@@ -41,7 +41,7 @@ int main(){
 	n3->info = 3;
 	n3->link = NULL;					//The third node pointer to NULL, indicating end of list.
 
-	printf("Enter the data of node which you wanna delelte: ");
+	printf("Enter the data of node which you wanna delete: ");
 	scanf("%d", &data);
 
 	start = delete_node(start, data);		//Our function returns start, so if it's position is changed,
